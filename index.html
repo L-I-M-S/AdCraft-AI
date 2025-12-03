@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AdCraft AI – Instant High-Converting Ad Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Generate high-converting ad copy for Facebook, Instagram, TikTok, YouTube, Google, and more in seconds with AdCraft AI." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Main stylesheet (Phase 2) -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- App logic (Phase 3) -->
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <!-- ================= Header & Navigation ================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo">
+        <span class="logo-mark">⚡</span>
+        <span class="logo-text">
+          <span class="logo-title">AdCraft</span>
+          <span class="logo-subtitle">AI Ads Co-Pilot</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#generator">Generator</a></li>
+          <li><a href="#extension">Extension</a></li>
+          <li><a href="#use-cases">Use Cases</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#pricing" class="btn btn-ghost">View Plans</a>
+        <a href="#generator" class="btn btn-primary">Try the Generator</a>
+
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= Hero Section ================= -->
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Built for media buyers & founders</span>
+          </div>
+
+          <h1>
+            Generate scroll-stopping ads<br />
+            for every platform in <span class="accent">seconds</span>.
+          </h1>
+
+          <p class="hero-subtitle">
+            AdCraft AI turns your product description into high-converting ad
+            copy for Facebook, Instagram, TikTok, YouTube, Google Ads, and more.
+            Perfect hooks, headlines, and CTAs—tailored to each platform.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#generator" class="btn btn-primary btn-lg">
+              Start Creating Ads
+            </a>
+            <a href="#extension" class="btn btn-outline btn-lg">
+              See Chrome Extension
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="hero-metric">
+              <strong>10x</strong>
+              <span>Faster ad creation</span>
+            </div>
+            <div class="hero-metric">
+              <strong>Multi-platform</strong>
+              <span>Meta · TikTok · YouTube · Google</span>
+            </div>
+            <div class="hero-metric">
+              <strong>No code</strong>
+              <span>Static, instant, in your browser</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <!-- Main mockup image from web (stock / illustrative) -->
+          <figure class="hero-image-card">
+            <img
+              src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1300&q=80"
+              alt="Person working at a desk surrounded by multiple screens with analytics and marketing dashboards"
+            />
+            <figcaption>
+              AdCraft AI overlays your ads manager with AI-powered suggestions.
+            </figcaption>
+          </figure>
+
+          <!-- Secondary stacked cards to show UI concepts -->
+          <div class="hero-floating-cards">
+            <div class="ui-card ui-card--ad-preview">
+              <div class="ui-card-header">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+              <div class="ui-card-body">
+                <p class="ui-label">Facebook / Instagram</p>
+                <p class="ui-primary-text">
+                  “Stop wasting ad spend. Turn your product into binge-worthy
+                  content that your audience can’t scroll past.”
+                </p>
+                <p class="ui-headline">Turn Scrolls into Sales</p>
+                <button class="btn btn-pill btn-mini">Copy to Ads Manager</button>
+              </div>
+            </div>
+
+            <div class="ui-card ui-card--ad-preview small">
+              <p class="ui-label">TikTok Hook</p>
+              <p>“POV: your ads finally stop flopping 👀”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Social Proof / Logos ================= -->
+    <section class="social-proof">
+      <div class="container social-proof-inner">
+        <p class="social-proof-label">
+          Trusted by marketers, founders, and agencies worldwide
+        </p>
+        <div class="logo-row" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=800&q=80"
+            alt="Abstract tech shapes used as brand placeholder"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80"
+            alt="Creative workspace used as brand placeholder"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=800&q=80"
+            alt="Office skyline used as brand placeholder"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=80"
+            alt="Laptop and code used as brand placeholder"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Features Section ================= -->
+    <section id="features" class="features">
+      <div class="container">
+        <header class="section-header">
+          <h2>Built for real-world performance marketing.</h2>
+          <p>
+            Not just “AI copy”—AdCraft AI understands each platform’s structure,
+            character limits, and best practices so your ads look native
+            everywhere they run.
+          </p>
+        </header>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3>Platform-native structures</h3>
+            <p>
+              AdCraft formats your copy perfectly for Facebook, Instagram,
+              TikTok, YouTube, Google Ads, LinkedIn, and X. Primary text,
+              headlines, descriptions, CTAs—ready to paste.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🎯</div>
+            <h3>Audience-aware messaging</h3>
+            <p>
+              Feed in your ideal customer and position. AdCraft adapts tone and
+              angles for DTC brands, local services, SaaS, info products, and
+              more.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🧪</div>
+            <h3>A/B test ready</h3>
+            <p>
+              Instantly generate multiple variations for hooks, headlines, and
+              primary text so you can test what actually converts.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🧩</div>
+            <h3>Chrome extension co-pilot</h3>
+            <p>
+              Use the browser extension to generate and insert ad copy directly
+              into your Ads Manager with one click. No tab-hopping.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">⚙️</div>
+            <h3>Static & blazing fast</h3>
+            <p>
+              Runs entirely as a static site with client-side AI calls. No
+              complex setup, no heavy backend—just plug in and create.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🌍</div>
+            <h3>Multi-language ready</h3>
+            <p>
+              Generate ads in multiple languages so you can scale globally
+              without hiring separate copywriters for each region.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Main Generator Section ================= -->
+    <section id="generator" class="generator">
+      <div class="container generator-inner">
+        <div class="generator-copy">
+          <h2>Create high-converting ads right now.</h2>
+          <p>
+            Drop in your product or service, define your audience and platform,
+            choose your style, and let AdCraft do the heavy lifting. No sign-up
+            flow, no friction—just pure output.
+          </p>
+
+          <ul class="generator-benefits">
+            <li>🎬 Generate platform-native scripts for video ads.</li>
+            <li>📣 Turn winning angles into 10+ fresh variants.</li>
+            <li>💬 Choose tone: fun, luxury, professional, edgy, UGC-style.</li>
+            <li>📌 Optionally include emojis and hashtags where it makes sense.</li>
+          </ul>
+
+          <figure class="generator-visual">
+            <img
+              src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80"
+              alt="Marketing team looking at analytics dashboard and planning ad campaigns"
+            />
+          </figure>
+        </div>
+
+        <div class="generator-panel" aria-label="AdCraft AI Generator">
+          <form class="generator-form" id="adcraft-form">
+            <div class="form-header">
+              <h3>AdCraft Generator</h3>
+              <p>Describe your offer. We’ll handle the hooks, headlines & CTAs.</p>
+            </div>
+
+            <label class="form-field">
+              <span class="field-label">
+                Product / Service
+                <span class="chip chip-required">Required</span>
+              </span>
+              <textarea
+                id="productInput"
+                rows="3"
+                placeholder="E.g. A premium cold brew coffee subscription for busy professionals..."
+                required
+              ></textarea>
+            </label>
+
+            <label class="form-field">
+              <span class="field-label">Target Audience</span>
+              <textarea
+                id="audienceInput"
+                rows="2"
+                placeholder="E.g. Remote tech workers in their 20s–40s who value convenience and quality..."
+              ></textarea>
+            </label>
+
+            <div class="form-row">
+              <label class="form-field">
+                <span class="field-label">Platform</span>
+                <select id="platformInput">
+                  <option value="Facebook / Instagram">Facebook / Instagram</option>
+                  <option value="TikTok">TikTok</option>
+                  <option value="YouTube">YouTube</option>
+                  <option value="Google Ads">Google Ads</option>
+                  <option value="LinkedIn">LinkedIn</option>
+                  <option value="X (Twitter)">X (Twitter)</option>
+                </select>
+              </label>
+
+              <label class="form-field">
+                <span class="field-label">Goal</span>
+                <select id="goalInput">
+                  <option value="Sales">Sales</option>
+                  <option value="Leads">Leads</option>
+                  <option value="Awareness">Awareness</option>
+                  <option value="App installs">App installs</option>
+                  <option value="Bookings">Bookings</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label class="form-field">
+                <span class="field-label">Tone / Style</span>
+                <select id="toneInput">
+                  <option value="Friendly">Friendly</option>
+                  <option value="Professional">Professional</option>
+                  <option value="Luxury">Luxury</option>
+                  <option value="Edgy">Edgy</option>
+                  <option value="UGC-style">UGC-style</option>
+                  <option value="Story-based">Story-based</option>
+                </select>
+              </label>
+
+              <label class="form-field">
+                <span class="field-label">Length</span>
+                <select id="lengthInput">
+                  <option value="Short">Short</option>
+                  <option value="Medium" selected>Medium</option>
+                  <option value="Long">Long</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="options-group">
+              <label class="option-pill">
+                <input type="checkbox" id="emojisInput" />
+                <span>Include emojis</span>
+              </label>
+              <label class="option-pill">
+                <input type="checkbox" id="hashtagsInput" />
+                <span>Include hashtags (where relevant)</span>
+              </label>
+              <label class="option-pill">
+                <input type="checkbox" id="videoScriptInput" />
+                <span>Also generate a video script outline</span>
+              </label>
+            </div>
+
+            <div class="form-footer">
+              <button type="submit" class="btn btn-primary btn-full" id="generateButton">
+                Generate Ad Variations
+              </button>
+              <p class="form-hint">
+                No sign-up needed in this demo. In production, connect your AI API
+                key or license.
+              </p>
+            </div>
+          </form>
+
+          <section
+            class="generator-results"
+            aria-live="polite"
+            aria-busy="false"
+            id="resultsSection"
+          >
+            <header class="results-header">
+              <h4>Generated Ads</h4>
+              <p>Your ad copy will appear here, ready to paste into any ads manager.</p>
+            </header>
+
+            <div class="results-placeholder">
+              <p>Fill in the form and click “Generate Ad Variations” to see results.</p>
+            </div>
+
+            <div class="results-list" id="resultsList">
+              <!-- Dynamic ad variations will be injected here by app.js -->
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Extension Section ================= -->
+    <section id="extension" class="extension">
+      <div class="container extension-inner">
+        <div class="extension-text">
+          <h2>Generate & insert ads directly inside your Ads Manager.</h2>
+          <p>
+            With the AdCraft Chrome extension, your AI co-pilot follows you into
+            Meta, TikTok, Google, and more. Click once to generate, once more to
+            insert—no more copy-paste across tabs.
+          </p>
+
+          <ol class="extension-steps">
+            <li>Install the Chrome extension from the Web Store.</li>
+            <li>Open your preferred Ads Manager and start creating a new ad.</li>
+            <li>Click “Generate with AdCraft” next to any text field.</li>
+            <li>Choose your angle and insert it instantly.</li>
+          </ol>
+
+          <div class="extension-cta">
+            <a href="#" class="btn btn-primary">Get the Chrome Extension</a>
+            <span class="small-note">Soon available on Chrome & Edge.</span>
+          </div>
+        </div>
+
+        <div class="extension-visual">
+          <figure class="extension-mock">
+            <img
+              src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1300&q=80"
+              alt="Browser window mockup showing an overlay inside an advertising manager"
+            />
+            <figcaption>
+              AdCraft AI opens right alongside your ad fields, generating native
+              copy instantly.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Use Cases ================= -->
+    <section id="use-cases" class="use-cases">
+      <div class="container">
+        <header class="section-header">
+          <h2>Works across niches & business models.</h2>
+          <p>
+            Whether you’re running one store or a full media buying agency,
+            AdCraft gives you the speed and volume to test more winners.
+          </p>
+        </header>
+
+        <div class="use-cases-grid">
+          <article class="use-case-card">
+            <h3>DTC & Ecommerce</h3>
+            <p>
+              Launch new creatives daily with fresh hooks and angles for every
+              product. Quickly adapt copy for prospecting, retargeting, and
+              retention campaigns.
+            </p>
+          </article>
+
+          <article class="use-case-card">
+            <h3>Agencies & Freelancers</h3>
+            <p>
+              Turn client briefs into full ad packs in minutes. Ship more tests,
+              win more retainers, and keep your pipeline moving.
+            </p>
+          </article>
+
+          <article class="use-case-card">
+            <h3>Coaches & Info Products</h3>
+            <p>
+              Create story-driven funnels that speak directly to your ideal
+              customer and move them from scroll to sign-up.
+            </p>
+          </article>
+
+          <article class="use-case-card">
+            <h3>Local Services & B2B</h3>
+            <p>
+              Generate professional, benefit-driven copy that fits Facebook,
+              LinkedIn, and Google Ads—without sounding like everyone else.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Pricing ================= -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <header class="section-header">
+          <h2>Launch-friendly pricing, built to pay for itself.</h2>
+          <p>
+            Use AdCraft AI to produce your next winning campaign and let it pay
+            for the tool many times over.
+          </p>
+        </header>
+
+        <div class="pricing-grid">
+          <article class="pricing-card">
+            <div class="pricing-label">Launch Special</div>
+            <h3>Founding Member</h3>
+            <p class="pricing-price">
+              <span class="price-main">$197</span>
+              <span class="price-note">one-time</span>
+            </p>
+            <ul class="pricing-features">
+              <li>Lifetime access to the static web app</li>
+              <li>All supported platforms & tones</li>
+              <li>Access to Chrome extension</li>
+              <li>Future prompt pack updates included</li>
+              <li>Priority feedback channel</li>
+            </ul>
+            <a href="#" class="btn btn-primary btn-full">Get Lifetime Access</a>
+            <p class="pricing-footnote">
+              Limited founding member spots. Pricing may increase as features are
+              added.
+            </p>
+          </article>
+
+          <article class="pricing-card pricing-card--ghost">
+            <div class="pricing-label alt">Power Users</div>
+            <h3>Agency Pack</h3>
+            <p class="pricing-price">
+              <span class="price-main">$49</span>
+              <span class="price-note">per month</span>
+            </p>
+            <ul class="pricing-features">
+              <li>Higher generation limits</li>
+              <li>Multiple brand profiles</li>
+              <li>Team seat support</li>
+              <li>Priority feature requests</li>
+              <li>Early access to new templates</li>
+            </ul>
+            <a href="#" class="btn btn-outline btn-full">Join the Waitlist</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Testimonials ================= -->
+    <section class="testimonials">
+      <div class="container">
+        <header class="section-header">
+          <h2>What marketers say about AdCraft-style workflows.</h2>
+          <p>
+            Bringing AI into ads managers directly helps teams ship and test
+            more creative faster—without sacrificing quality.
+          </p>
+        </header>
+
+        <div class="testimonials-grid">
+          <figure class="testimonial-card">
+            <blockquote>
+              “Being able to spin up 10 angles in a couple minutes and drop them
+              straight into Ads Manager changed our weekly creative cadence.”
+            </blockquote>
+            <figcaption>
+              <div class="avatar">
+                <img
+                  src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=400&q=80"
+                  alt="Portrait of a smiling marketing professional"
+                />
+              </div>
+              <div>
+                <strong>Alex Rivera</strong>
+                <span>Performance Marketer, DTC Brands</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card">
+            <blockquote>
+              “We stopped starting from a blank page. Now my team tweaks and
+              optimizes instead of staring at the cursor.”
+            </blockquote>
+            <figcaption>
+              <div class="avatar">
+                <img
+                  src="https://images.unsplash.com/photo-1544723795-3fb0b90cff2f?auto=format&fit=crop&w=400&q=80"
+                  alt="Portrait of a marketing agency owner"
+                />
+              </div>
+              <div>
+                <strong>Jordan Lee</strong>
+                <span>Founder, Creative Agency</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card">
+            <blockquote>
+              “The extension is the secret weapon. I don’t have to leave my
+              TikTok Ads window to get new hooks and scripts.”
+            </blockquote>
+            <figcaption>
+              <div class="avatar">
+                <img
+                  src="https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?auto=format&fit=crop&w=400&q=80"
+                  alt="Portrait of a content creator"
+                />
+              </div>
+              <div>
+                <strong>Mia Carter</strong>
+                <span>UGC Creator & Media Buyer</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section id="faq" class="faq">
+      <div class="container">
+        <header class="section-header">
+          <h2>Frequently asked questions</h2>
+          <p>
+            Everything you need to know about how AdCraft AI fits into your ad
+            workflow as a static site + extension.
+          </p>
+        </header>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>Is AdCraft AI really just a static website?</summary>
+            <p>
+              Yes. The interface runs entirely as a static site, and all AI
+              calls are made from your browser. That means simple deployment,
+              fast load times, and no complicated backend infrastructure.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>How do the AI ad generations work?</summary>
+            <p>
+              You connect your preferred AI provider or license. AdCraft crafts
+              optimized prompts based on your inputs, platform, and goals, then
+              formats the responses into usable ad units.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Will the Chrome extension work on any ad platform?</summary>
+            <p>
+              The extension is designed to support major platforms like Meta Ads
+              Manager, TikTok Ads, Google Ads, YouTube, and LinkedIn. You’ll be
+              able to configure which platforms you want to enable.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Can I use my own AI API key?</summary>
+            <p>
+              Yes. The static version is built so you can optionally plug in
+              your own AI key, keeping control over costs and usage.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Does this replace human copywriters?</summary>
+            <p>
+              No. AdCraft is a force multiplier. It handles first drafts,
+              variations, and idea generation so you or your team can focus on
+              strategy, testing, and refinement.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Final CTA ================= -->
+    <section class="final-cta">
+      <div class="container final-cta-inner">
+        <div>
+          <h2>Stop staring at a blank ad field.</h2>
+          <p>
+            Turn every product idea into testable ad variations in seconds. Ship
+            more creative, find winners faster, and keep your ad accounts
+            moving.
+          </p>
+        </div>
+        <div class="final-cta-actions">
+          <a href="#generator" class="btn btn-primary btn-lg">Use the Generator</a>
+          <a href="#pricing" class="btn btn-outline btn-lg">Unlock Lifetime Access</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= Footer ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#top" class="logo">
+          <span class="logo-mark">⚡</span>
+          <span class="logo-text">
+            <span class="logo-title">AdCraft</span>
+            <span class="logo-subtitle">AI Ads Co-Pilot</span>
+          </span>
+        </a>
+        <p>
+          Static, fast, and focused. AdCraft AI helps you ship ad creative at
+          the speed of thought.
+        </p>
+      </div>
+
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#generator">Generator</a></li>
+            <li><a href="#extension">Chrome Extension</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#use-cases">Use Cases</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#">Docs (coming soon)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">Join the beta</a></li>
+            <li><a href="#">Partner with us</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> AdCraft AI. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
